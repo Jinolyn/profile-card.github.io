@@ -18,10 +18,17 @@ img{
     background-color: #150F3D;
 }
 
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
+
 .card{
-    width: 400px;
-    height: 450px;
-    position: relative;
+    width: 380px;
+    height: 480px;
+    position: absolute;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -80,6 +87,7 @@ p{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    /* flex-wrap: wrap; */
     
 }
 .ico-group img{
