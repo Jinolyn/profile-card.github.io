@@ -5,9 +5,6 @@
     box-sizing: border-box;
 }
 
-img{
-    width: 40px;
-}
 
 .wrapper{
     width: 100%;
@@ -104,15 +101,14 @@ p{
 .btn{
     width: 100px;
     padding: 10px;
-    background-color: #151F35;
-    color: #A2C3F9;
+    background-color: #094cdf;
+    color: #fff;
     cursor: pointer;
     border-radius: 8px ;
     margin-left: 120px;
 
     &:hover{
         background-color: #133274;
-        color: #fff;
     }
 }
 
